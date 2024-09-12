@@ -38,7 +38,7 @@ int main(void) {
 
     float fixedCircleRad = 200.0f;
     float movingCircleRad = 75.0f;
-    Vector2 movingCirclePos;
+    Vector2 movingCirclePos = {0.0f, 0.0f};
     Vector2 fixedCirclePos = {400.0f, 400.0f};
 
     float penOffsetRad = 65.0f;
